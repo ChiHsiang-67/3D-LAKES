@@ -15,7 +15,7 @@ download(9047,'GEE_exports')              //    <---------- Here to change
 //////////////////////////////////////////////////////////////////////////////////// 
 /////////////////// Main code ////////////////////////////////////////////////////// 
 function download(Hylak_id,folder){
-var lakes = ee.FeatureCollection("projects/ee-chihsiang/assets/Global_Reservoir/global_A_E_v3").filter(ee.Filter.eq("Hylak_id", Hylak_id))
+var lakes = ee.FeatureCollection("projects/ee-chihsiang/assets/Global_Reservoir/global_A_E_v2").filter(ee.Filter.eq("index", Hylak_id))
 var featureCollection=ee.FeatureCollection('projects/sat-io/open-datasets/HydroLakes/lake_poly_v10').filter(ee.Filter.eq("Hylak_id",Hylak_id))
 var Image_base=ee.Image('JRC/GSW1_4/GlobalSurfaceWater').clip(featureCollection.geometry().buffer(500))
 // Chagne th str list to number list   
