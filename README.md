@@ -1,6 +1,6 @@
 # 3D-LAKES Example Code Repository
 
-This Repository contains example code for 3D-Global Lakes (3D-LAKES) dataset. The datest includes the area-elevation (A-E) relationship and three-dimensional bathymetry for 510,530 global lakes and reservoirs, representing 98.9% of global surface water storage capacity. Level 1 (L1) and Level 2 (L2) A-E relationships are included. L1 products were created using ICESat-2 and Landsat satellites, while L2 products, derived from interpolation and extrapolation, may contain errors.
+This repository contains example code for 3D-Global Lakes (3D-LAKES) dataset. The datest includes the area-elevation (A-E) relationship and three-dimensional bathymetry for 510,530 global lakes and reservoirs, representing 98.9% of global surface water storage capacity. Level 1 (L1) and Level 2 (L2) A-E relationships are included. L1 products were created using ICESat-2 and Landsat satellites, while L2 products, derived from interpolation and extrapolation, may contain errors.
 
 Two examples are included in this repository:
 
